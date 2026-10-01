@@ -1,0 +1,8 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+.venv/
+*.py[cod]
+Results/Homework - Statistical Models and Methods for Finance (Jacob Korsgaard).pdf
