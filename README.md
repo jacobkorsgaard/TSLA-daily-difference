@@ -30,11 +30,4 @@ python Python/tsla_daily_range.py
 
 Python figures are written to `Results/Graphs/Python/`.
 
-## Limitations
-
-- The out-of-sample comparison contains only six trading days (January 13–21, 2026). The report labels the Yahoo download endpoint as January 22, but that endpoint is exclusive. Small differences in forecast accuracy should therefore not be interpreted as strong evidence that one model is superior.
-- High minus low is an intraday trading-range measure and only a proxy for variability or uncertainty.
-- The submitted report used an ADF regression without a constant. Because this positive series fluctuates around a nonzero mean, the Python replication uses an intercept; this is the more appropriate specification and may produce a different test statistic.
-- Results may vary slightly as data providers and software versions change.
-
 This repository is an educational project and not investment advice.
