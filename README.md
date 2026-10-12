@@ -27,7 +27,3 @@ source Python/.venv/bin/activate
 pip install -r Python/requirements.txt
 python Python/tsla_daily_range.py
 ```
-
-Python figures are written to `Results/Graphs/Python/`.
-
-This repository is an educational project and not investment advice.
